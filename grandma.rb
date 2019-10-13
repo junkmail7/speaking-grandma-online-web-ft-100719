@@ -1,15 +1,15 @@
 
 def speak_to_grandma(phrase="")
-  
+  answer=""
 if (phrase.upcase==true)
-  puts("HUH?! SPEAK UP, SONNY!")
+  answer="HUH?! SPEAK UP, SONNY!"
 end
 if(phrase.downcase==true)
-  puts("NO, NOT SINCE 1938!")
+  answer="NO, NOT SINCE 1938!"
 end
 if(phrase=="I LOVE YOU GRANDMA!")
-  puts("I LOVE YOU TOO PUMPKIN!")
+  answer="I LOVE YOU TOO PUMPKIN!"
 end
-
+return answer
 end
 
