@@ -4,7 +4,7 @@ def speak_to_grandma(phrase="")
 if (phrase.upcase==phrase)
   answer="HUH?! SPEAK UP, SONNY!"
 end
-if(phrase.downcase==phrase)
+if(phrase==phrase)
   answer="NO, NOT SINCE 1938!"
 end
 if(phrase=="I LOVE YOU GRANDMA!")
