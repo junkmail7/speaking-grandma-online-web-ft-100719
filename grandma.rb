@@ -1,6 +1,7 @@
 # Write a speak_to_grandma method.
-def 
-# Whatever you say to grandma, she should respond with
+def speak_to_grandma(phrase)
+  
+if (phrase)
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
 
